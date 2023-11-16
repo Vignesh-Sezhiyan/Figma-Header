@@ -1,0 +1,46 @@
+.container {
+    background-color: rgb(47, 24, 147);
+}
+
+#button-color {
+    background-color: rgb(233, 58, 125);
+    border-radius: 20px;
+}
+
+#toggler-button {
+    background-color: rgb(233, 58, 125);
+
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.input-fields {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 3px 4px rgb(215, 215, 221);
+    border: 1px solid rgb(215, 204, 204);
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#Signup-title {
+    color: #3a22a5;
+}
+
+#Submit-button1 {
+    width: 70%;
+    background-color: #5d4ab4;
+    color: white;
+    border-radius: 20px;
+}
+
+#Submit-button2 {
+    width: 70%;
+    color: white;
+    border-radius: 20px;
+}

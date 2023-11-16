@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Header-14</title>
+
+    <!--Bootstraap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--Bootstraap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--Css-->
+    <link rel="stylesheet" href="Style.css">
+
+    <!--Font-awesome-->
+
+    <script src="https://kit.fontawesome.com/b0013e472d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container">
+    
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg py-4">
+        <div class="container-fluid py-1 ">
+            <h5 class="text-white mx-5 px-5">Startup 3</h5>
+                <button id="toggler-button" class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-grip text-white pt-1"></i></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active text-muted" aria-current="page" href="#">Overview</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link text-white" href="#">Prices</a>
+                        </li>
+                        <li class="nav-item mx-4 ">
+                            <a class="nav-link text-white" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link text-white" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link text-white btn px-4 py-1" id="button-color" href="#">Purchase</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <!--Navbar-end-->
+
+    <div class="container">
+        <div class="row mx-auto">
+
+            <!--col-1-->
+            <div class="col-lg-4 mx-auto">
+                <h1 class="text-white mt-5">Generate Awesome Web Pages</h1>
+                <p class="text-white my-5">The most important part of the startup is the samples.The samples form a set
+                    of 25 usable
+                    pages you can use as is or you can add new blocks.</p>
+                <button id="button-color" class="btn text-white px-4">Learn More</button>
+            </div>
+            <!--col-1-end-->
+
+            <!--col-2-->
+
+            <div class="col-lg-5 mx-auto">
+                <div class="card my-5">
+                    <div class="card-body text-center p-1">
+                        <div class="card-title">
+                            <h2 id="Signup-title" class="my-4 fw-bold">Sign Up Now</h2>
+                        </div>
+                        <input class="input-fields px-3 py-1" type="text" placeholder="Your Email">
+                        <input class="input-fields px-3 mt-4 py-1" type="text" placeholder="Your Password">
+
+                        <div class="form-check mt-4 ms-5 d-flex">
+                            <input class="form-check-input bg-info mx-2" type="checkbox" value="" id="flexCheckChecked"
+                                checked>
+                            <label class="form-check-label text-muted ms-2 mb-2" for="flexCheckChecked">
+                                I agree to the terms of service
+                            </label>
+                        </div>
+                        <button class="btn my-2" id="Submit-button1">Sign In</button>
+                        <br>
+                        <div style="float:left; width: 30%; margin-left: 60px;">
+                            <hr />
+                        </div>
+                        <div style="float:right; background-color: 30%; margin-right: 60px; align-items:center rgb(240, 236, 233);">
+                            <hr />
+                        </div>
+                        or
+
+                        <button class="btn my-2 bg-info" id="Submit-button2">Login Via Twitter</button><br>
+                        <p class="text-muted mt-2">Do you have an Account? <a href="/" class="text-info">Sign In</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!--col-2 end-->
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
